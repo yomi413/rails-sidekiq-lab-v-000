@@ -15,6 +15,6 @@ You will find a CSV of classic rock songs and artists in `db\songs.csv`. Use it 
 
 ## Instructions
 
-1. Use Sidekiq to process the songs csv upload with a `SongsWorker`
+1. Use Sidekiq to process the songs csv import with a `SongsWorker`
    background worker.
 2. Make sure tests pass!
